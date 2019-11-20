@@ -74,12 +74,13 @@ html {
 .banner-text {
   width: 50vw;
 }
-@media screen and (max-width: 670px) {
+
+/* @media screen and (max-width: 670px) {
   .banner {
-    height: 50vh;
+    height: 70vh;
   }
 
   header {
-    min-height: 50vh;
+    min-height: 70vh;
   }
-}
+} */
