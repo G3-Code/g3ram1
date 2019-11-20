@@ -1,5 +1,6 @@
 html {
   font-size: 62.5%;
+  font-family: "Open Sans", sans-serif;
 }
 
 .brand-logo {
@@ -70,6 +71,9 @@ html {
   }
 }
 
+.banner-text {
+  width: 50vw;
+}
 @media screen and (max-width: 670px) {
   .banner {
     height: 50vh;

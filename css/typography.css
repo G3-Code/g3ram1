@@ -1,5 +1,28 @@
 .normal-text {
-  font-family: "Open Sans", sans-serif;
+  /* font-family: "Open Sans", sans-serif; */
   letter-spacing: 2px;
   font-size: 1.2rem;
+}
+
+.name-title {
+  letter-spacing: 2px;
+  font-size: 5.5rem;
+  font-weight: 700;
+}
+
+.sub-title {
+  letter-spacing: 2px;
+  font-size: 2rem;
+  font-weight: 500;
+}
+
+.banner-footer {
+  letter-spacing: 2px;
+  font-size: 1.8rem;
+  font-weight: 700;
+}
+
+.highlights {
+  /* color: linear-gradient(180deg, #c2185b 0%, #d32f2f 100%); */
+  color: C2185B;
 }
