@@ -5,6 +5,10 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <!-- Adding the fav icon-->
     <link rel="shortcut icon" href="/img/favicon.ico" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap"
+      rel="stylesheet"
+    />
     <!--Import Google Icon Font-->
     <link
       href="https://fonts.googleapis.com/icon?family=Material+Icons"
@@ -12,18 +16,60 @@
     />
     <!--Import materialize.css-->
     <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css"
+    />
+
+    <!-- Link to local CSS -->
+    <link
       type="text/css"
       rel="stylesheet"
-      href="css/materialize.min.css"
+      href="css/index.css"
+      media="screen,projection"
+    />
+    <link
+      type="text/css"
+      rel="stylesheet"
+      href="css/typography.css"
       media="screen,projection"
     />
     <title>Gayathri R | Full stack web developer</title>
   </head>
   <body>
     <header>
-      <nav class="nav-container">
-        G3 Ram's Portfolio page
-      </nav>
+      <div class="navbar-fixed">
+        <nav class="nav-wrapper transparent">
+          <div class="container">
+            <a href="" class="brand-logo">
+              <img
+                class="responsive-img"
+                src="/img/Logo_s.png"
+                width="40"
+                height="auto"
+            /></a>
+            <a href="" class="sidenav-trigger" data-target="mobile-links">
+              <i class="material-icons black-text">menu</i>
+            </a>
+            <ul class="right hide-on-med-and-down">
+              <li><a href="#" class="black-text normal-text">Work</a></li>
+              <li><a href="#" class="black-text normal-text">About</a></li>
+            </ul>
+
+            <ul class="sidenav black" id="mobile-links">
+              <li><a href="#" class="white-text normal-text ">Work</a></li>
+              <li><a href="#" class="white-text normal-text">About</a></li>
+            </ul>
+          </div>
+        </nav>
+      </div>
     </header>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <!-- Compiled and minified JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <script>
+      $(document).ready(function() {
+        $(".sidenav").sidenav();
+      });
+    </script>
   </body>
 </html>
