@@ -107,6 +107,10 @@ progress::-webkit-progress-value {
 progress::-moz-progress-value {
   background-color: #d32f2f;
 }
+
+.work-section {
+  margin-top: 100px;
+}
 /* @media screen and (max-width: 670px) {
   .banner {
     height: 70vh;
