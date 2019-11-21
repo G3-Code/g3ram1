@@ -5,6 +5,11 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <!-- Adding the fav icon-->
     <link rel="shortcut icon" href="/img/favicon.ico" />
+    <!-- Import font awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css"
+    />
     <link
       href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap"
       rel="stylesheet"
@@ -36,39 +41,206 @@
     <title>Gayathri R | Full stack web developer</title>
   </head>
   <body>
-    <header>
-      <div class="navbar-fixed">
-        <nav class="nav-wrapper transparent">
-          <div class="container">
-            <a href="" class="brand-logo">
-              <img
-                class="responsive-img"
-                src="/img/Logo_s.png"
-                width="40"
-                height="auto"
-            /></a>
-            <a href="" class="sidenav-trigger" data-target="mobile-links">
-              <i class="material-icons black-text">menu</i>
-            </a>
-            <ul class="right hide-on-med-and-down">
-              <li><a href="#" class="black-text normal-text">Work</a></li>
-              <li><a href="#" class="black-text normal-text">About</a></li>
-            </ul>
+    <div class="content-wrapper">
+      <!-- NAV BAR -->
+      <header>
+        <div class="navbar-fixed">
+          <nav class="nav-wrapper white">
+            <div class="container">
+              <a href="" class="brand-logo left">
+                <img
+                  class="responsive-img"
+                  src="/img/Logo_s.png"
+                  width="40"
+                  height="auto"
+              /></a>
+              <a
+                href=""
+                class="sidenav-trigger right"
+                data-target="mobile-links"
+              >
+                <i class="material-icons black-text">menu</i>
+              </a>
+              <ul class="right hide-on-med-and-down">
+                <li><a href="#" class="black-text normal-text">Stories</a></li>
+                <li><a href="#" class="black-text normal-text">Projects</a></li>
+                <li><a href="#" class="black-text normal-text">About</a></li>
+              </ul>
 
-            <ul class="sidenav black" id="mobile-links">
-              <li><a href="#" class="white-text normal-text ">Work</a></li>
-              <li><a href="#" class="white-text normal-text">About</a></li>
-            </ul>
+              <ul class="sidenav black" id="mobile-links">
+                <li><a href="#" class="white-text normal-text">Stories</a></li>
+                <li>
+                  <a href="#" class="white-text normal-text ">Projects</a>
+                </li>
+                <li><a href="#" class="white-text normal-text">About</a></li>
+              </ul>
+            </div>
+          </nav>
+          <progress value="0" max="100" class="progress-bar"></progress>
+        </div>
+        <div class="banner">
+          <div class="container valign-wrapper">
+            <div class="row">
+              <!-- BANNER TITLE AND SUB-TITLE -->
+              <div class="name-title col s12 m10 l12">
+                Gayathri Ramakrishnan
+              </div>
+              <div class="sub-title col s12 m10 l12">
+                Full stack web developer | UX Designer | PM | BA
+              </div>
+              <div class="row"></div>
+              <div class="row"></div>
+              <!-- BANNER CONTENT -->
+              <div class="flow-text col s12 m8 l8">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi
+                excepturi ducimus nobis reiciendis tempora, eos cum delectus
+                deserunt minus magnam nemo placeat consequatur odit voluptatem
+                molestias accusantium cumque nulla adipisci.
+              </div>
+              <div class="row"></div>
+              <div class="row"></div>
+              <!-- BANNER FOOTER -->
+              <div class="banner-footer col s12 m10 l10">
+                Previously at <span class="highlights">Cognizant</span> and
+                <span class="highlights">Likeminds</span>
+              </div>
+              <div class="row"></div>
+              <div class="col s1 m1 l1">
+                <a href="" class="btn-floating pink darken-2 pulse">
+                  <i class="far fa-envelope"></i>
+                </a>
+              </div>
+            </div>
           </div>
-        </nav>
-      </div>
-    </header>
+        </div>
+        <!-- END OF NAV-BAR FIXED-->
+      </header>
+
+      <!-- PROJECTS -->
+      <section class="container work-section">
+        <div class="row">
+          <div class="col s12 m6 l5">
+            <div class="card hoverable">
+              <div class="card-image">
+                <img src="/img/justhelp.png" alt="just help project" />
+                <a href="" class="halfway-fab btn-floating pink darken-2 pulse">
+                  <i class="far fa-hand-pointer"></i>
+                </a>
+              </div>
+              <div class="card-content">
+                <span class="card-title pink-text text-darken-2"
+                  >Project 1</span
+                >
+                <p class="flow-text">
+                  Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                  Voluptatem iusto sapiente fugit at. Tempora repellat, ipsam
+                </p>
+              </div>
+              <div class="card-action">
+                <a href="#" class="pink-text text-darken-2">View Details -></a>
+              </div>
+            </div>
+          </div>
+          <div class="col s12 m6 l5 offset-l2">
+            <div class="card hoverable">
+              <div class="card-image">
+                <img src="/img/productq.png" alt="just help project" />
+                <a href="" class="halfway-fab btn-floating pink darken-2 pulse">
+                  <i class="far fa-hand-pointer"></i>
+                </a>
+              </div>
+              <div class="card-content">
+                <span class="card-title pink-text text-darken-2"
+                  >Project 1</span
+                >
+                <p class="flow-text">
+                  Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                  Voluptatem iusto sapiente fugit at. Tempora repellat, ipsam
+                </p>
+              </div>
+              <div class="card-action">
+                <a href="#" class="pink-text text-darken-2">View Details -></a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row"></div>
+        <!-- SECOND ROW OF CARDS -->
+
+        <div class="row">
+          <div class="col s12 m6 l5">
+            <div class="card hoverable">
+              <div class="card-image">
+                <img src="/img/sleeptracker.png" alt="just help project" />
+                <a href="" class="halfway-fab btn-floating pink darken-2 pulse">
+                  <i class="far fa-hand-pointer"></i>
+                </a>
+              </div>
+              <div class="card-content">
+                <span class="card-title pink-text text-darken-2"
+                  >Project 1</span
+                >
+                <p class="flow-text">
+                  Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                  Voluptatem iusto sapiente fugit at. Tempora repellat, ipsam
+                </p>
+              </div>
+              <div class="card-action">
+                <a href="#" class="pink-text text-darken-2">View Details -></a>
+              </div>
+            </div>
+          </div>
+          <div class="col s12 m6 l5 offset-l2">
+            <div class="card hoverable">
+              <div class="card-image">
+                <img src="/img/howsthewater.png" alt="just help project" />
+                <a href="" class="halfway-fab btn-floating pink darken-2 pulse">
+                  <i class="far fa-hand-pointer"></i>
+                </a>
+              </div>
+              <div class="card-content">
+                <span class="card-title pink-text text-darken-2"
+                  >Project 1</span
+                >
+                <p class="flow-text">
+                  Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                  Voluptatem iusto sapiente fugit at. Tempora repellat, ipsam
+                </p>
+              </div>
+              <div class="card-action">
+                <a href="#" class="pink-text text-darken-2">View Details -></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- DOWNLOAD RESUME SECTION -->
+
+      <!-- FOOTER -->
+      <!-- footer -->
+    </div>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <!-- Compiled and minified JavaScript -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
     <script>
       $(document).ready(function() {
-        $(".sidenav").sidenav();
+        $(".sidenav").sidenav({ edge: "right" });
+        $(".tooltipped").tooltip();
+        $(window).scroll(function() {
+          // alert("scrolling window");
+          var cont_height = $(".content-wrapper").outerHeight();
+          var scroll_top = $(window).scrollTop();
+          var doc_height = $(window).outerHeight();
+          var progress = (scroll_top / (cont_height - doc_height)) * 100;
+
+          // range of progress
+          function round(val, min, max) {
+            return val > max ? max : val < min ? min : val;
+          }
+
+          var final_val = round(progress, 0, 100);
+          $(".progress-bar").attr("value", final_val);
+        });
       });
     </script>
   </body>
