@@ -75,6 +75,41 @@ html {
   width: 50vw;
 }
 
+section {
+  min-height: 100vh;
+}
+
+.resume-section {
+  min-height: 20vh;
+}
+
+progress {
+  -webkit-appearance: progress-bar;
+  box-sizing: border-box;
+  display: inline-block;
+  height: 1em;
+  width: 10em;
+  vertical-align: -0.2em;
+  color: white;
+}
+
+progress.progress-bar {
+  position: fixed;
+  height: 2px;
+  top: 64px;
+  width: 100%;
+  transition: width 0.3s linear;
+  -webkit-appearance: none;
+  background-color: transparent;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+}
+progress::-webkit-progress-value {
+  background-color: #c2185b;
+}
+progress::-moz-progress-value {
+  background-color: #c2185b;
+}
 /* @media screen and (max-width: 670px) {
   .banner {
     height: 70vh;
