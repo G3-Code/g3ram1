@@ -4,6 +4,13 @@
   font-size: 1.2rem;
 }
 
+p {
+  /* font-family: "Open Sans", sans-serif; */
+  letter-spacing: 2px;
+  font-size: 1.2rem;
+  line-height: 2;
+}
+
 .name-title {
   letter-spacing: 2px;
   font-size: 5.5rem;
@@ -20,6 +27,11 @@
   letter-spacing: 2px;
   font-size: 1.8rem;
   font-weight: 700;
+}
+
+h1 {
+  letter-spacing: 2px;
+  font-size: 2rem;
 }
 
 .highlights {
