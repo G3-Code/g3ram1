@@ -109,7 +109,18 @@ progress::-moz-progress-value {
 }
 
 .project-section {
-  margin-top: 100px;
+  background: linear-gradient(
+      90.16deg,
+      #ffffff 0.08%,
+      rgba(255, 255, 255, 0.75) 54.91%,
+      rgba(255, 255, 255, 0.7) 98.48%
+    ),
+    url(/img/project-background.jpg);
+  background-size: cover;
+}
+
+.gutter {
+  padding-top: 50px;
 }
 @media screen and (max-width: 670px) {
   progress.progress-bar {
