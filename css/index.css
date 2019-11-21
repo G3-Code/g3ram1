@@ -135,11 +135,21 @@ progress::-moz-progress-value {
   background: #c2185b;
 }
 
-.footer-left {
-  margin-left: 20px;
+.footer-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 @media screen and (max-width: 670px) {
   progress.progress-bar {
     top: 55px;
+  }
+
+  .footer-section {
+    flex-direction: column;
+  }
+
+  .footer-left {
+    margin-bottom: 20px;
   }
 }
