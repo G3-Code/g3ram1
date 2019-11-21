@@ -4,6 +4,14 @@
   font-size: 1.2rem;
 }
 
+.normal-flow-text {
+  /* font-family: "Open Sans", sans-serif; */
+  letter-spacing: 1px;
+  font-size: 1.5rem;
+  text-align: justify;
+  line-height: 1.75;
+}
+
 .normal-large-text {
   /* font-family: "Open Sans", sans-serif; */
   letter-spacing: 2px;
@@ -42,4 +50,12 @@ h1 {
 .highlights {
   /* color: linear-gradient(180deg, #c2185b 0%, #d32f2f 100%); */
   color: #c2185b;
+}
+
+@media screen and (max-width: 670) {
+  .name-title {
+    letter-spacing: 2px;
+    font-size: 4.75rem;
+    font-weight: 700;
+  }
 }
