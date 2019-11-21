@@ -4,6 +4,12 @@
   font-size: 1.2rem;
 }
 
+.normal-large-text {
+  /* font-family: "Open Sans", sans-serif; */
+  letter-spacing: 2px;
+  font-size: 1.6rem;
+}
+
 p {
   /* font-family: "Open Sans", sans-serif; */
   line-height: 1.5;

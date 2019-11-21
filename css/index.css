@@ -122,6 +122,18 @@ progress::-moz-progress-value {
 .gutter {
   padding-top: 50px;
 }
+
+.footer-content {
+  height: 200px;
+}
+
+.footer-links {
+  margin-right: 20px;
+}
+
+.footer-left {
+  margin-left: 20px;
+}
 @media screen and (max-width: 670px) {
   progress.progress-bar {
     top: 55px;
