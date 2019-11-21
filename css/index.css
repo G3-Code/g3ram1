@@ -131,6 +131,10 @@ progress::-moz-progress-value {
   margin-right: 20px;
 }
 
+.gradient-pink {
+  background: #c2185b;
+}
+
 .footer-left {
   margin-left: 20px;
 }
