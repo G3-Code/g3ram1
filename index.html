@@ -150,7 +150,7 @@
                 </div>
                 <div class="card-action">
                   <a href="#" class="pink-text text-darken-3"
-                    >View Details -></a
+                    >View Case Study &rarr;</a
                   >
                 </div>
               </div>
@@ -177,7 +177,7 @@
                 </div>
                 <div class="card-action">
                   <a href="#" class="pink-text text-darken-3"
-                    >View Details -></a
+                    >View Case Study &rarr;</a
                   >
                 </div>
               </div>
@@ -209,7 +209,7 @@
                 </div>
                 <div class="card-action">
                   <a href="#" class="pink-text text-darken-3"
-                    >View Details -></a
+                    >View Case Study &rarr;</a
                   >
                 </div>
               </div>
@@ -219,15 +219,40 @@
                 <div class="card-image">
                   <img src="/img/howsthewater.png" alt="just help project" />
                   <a
-                    href=""
-                    class="halfway-fab btn-floating gradient-pink pulse"
+                    href="#htw-modal"
+                    class="halfway-fab btn-floating gradient-pink pulse modal-trigger"
                   >
-                    <i class="far fa-hand-pointer"></i>
+                    <i class="fab fa-youtube"></i>
                   </a>
                 </div>
+                <!-- MODAL FOR HOW'S THE WATER - START -->
+                <div id="htw-modal" class="modal">
+                  <div class="modal-content">
+                    <div class="row">
+                      <div class="col s12 l12">
+                        <a
+                          href=""
+                          class="btn-floating modal-action modal-close right pink darken-3"
+                          onclick="$('#htw-modal').closeModal();"
+                          ><i class="fas fa-times"></i
+                        ></a>
+                      </div>
+                    </div>
+                    <div class="video-container">
+                      <iframe
+                        width="853"
+                        height="480"
+                        src="//www.youtube.com/embed/pvXFtddySoE?rel=0"
+                        frameborder="0"
+                        allowfullscreen
+                      ></iframe>
+                    </div>
+                  </div>
+                </div>
+                <!-- MODAL FOR HOW'S THE WATER - END -->
                 <div class="card-content">
                   <span class="card-title pink-text text-darken-3"
-                    >Project 1</span
+                    >How's the water!</span
                   >
                   <p class="flow-text">
                     Lorem ipsum, dolor sit amet consectetur adipisicing elit.
@@ -236,7 +261,7 @@
                 </div>
                 <div class="card-action">
                   <a href="#" class="pink-text text-darken-3"
-                    >View Details -></a
+                    >View Case Study &rarr;</a
                   >
                 </div>
               </div>
@@ -286,6 +311,7 @@
       $(document).ready(function() {
         $(".sidenav").sidenav({ edge: "right" });
         $(".tooltipped").tooltip();
+        $(".modal").modal();
         $(window).scroll(function() {
           // alert("scrolling window");
           var cont_height = $(".content-wrapper").outerHeight();
