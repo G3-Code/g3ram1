@@ -1,6 +1,7 @@
 $(document).ready(function() {
   $(".sidenav").sidenav({ edge: "right" });
   $(".tooltipped").tooltip();
+  $(".scrollspy").scrollSpy();
   $(".modal").modal();
   $(window).scroll(function() {
     // alert("scrolling window");
