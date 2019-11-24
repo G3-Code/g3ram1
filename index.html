@@ -82,7 +82,7 @@
           <div class="container valign-wrapper">
             <div class="row">
               <!-- BANNER TITLE AND SUB-TITLE -->
-              <div class="name-title col s11 m10 l12">
+              <div class="name-title col s12 m10 l12">
                 Gayathri Ramakrishnan
               </div>
               <div class="sub-title col s12 m10 l12">
@@ -91,7 +91,7 @@
               <div class="row"></div>
               <div class="row"></div>
               <!-- BANNER CONTENT -->
-              <div class="normal-flow-text col s11 m7 l7">
+              <div class="normal-flow-text col s12 m10 l7">
                 I am a <span class="highlights">curious</span>, passionate and
                 highly motivated full stack developer. I enjoy bringing ideas to
                 life with <span class="highlights">human-centered design</span>.
@@ -120,7 +120,7 @@
       </header>
 
       <!-- PROJECTS -->
-      <div class="project-section">
+      <div class="project-section" id="projects">
         <section class="container">
           <div class="gutter"></div>
           <h1 class="center-align highlights">
@@ -133,12 +133,37 @@
                 <div class="card-image">
                   <img src="/img/justhelp.png" alt="just help project" />
                   <a
-                    href=""
-                    class="halfway-fab btn-floating gradient-pink pulse"
+                    href="#justhelp_modal"
+                    class="halfway-fab btn-floating gradient-pink pulse modal-trigger"
                   >
-                    <i class="far fa-hand-pointer"></i>
+                    <i class="fab fa-youtube"></i>
                   </a>
                 </div>
+                <!-- MODAL FOR JUST HELP - START -->
+                <div id="justhelp_modal" class="modal">
+                  <div class="modal-content">
+                    <div class="row">
+                      <div class="col s12 l12">
+                        <a
+                          href="#projects"
+                          class="btn-floating modal-action modal-close right pink darken-3"
+                          onclick="$('#justhelp_modal').closeModal();"
+                          ><i class="fas fa-times"></i
+                        ></a>
+                      </div>
+                    </div>
+                    <div class="video-container">
+                      <iframe
+                        width="853"
+                        height="480"
+                        src="//www.youtube.com/embed/pLtPY3Z6dXA?rel=0"
+                        frameborder="0"
+                        allowfullscreen
+                      ></iframe>
+                    </div>
+                  </div>
+                </div>
+                <!-- MODAL FOR JUST HELP - END -->
                 <div class="card-content">
                   <span class="card-title pink-text text-darken-3"
                     >Project 1</span
@@ -158,14 +183,39 @@
             <div class="col s12 m6 l5 offset-l2">
               <div class="card hoverable">
                 <div class="card-image">
-                  <img src="/img/productq.png" alt="just help project" />
+                  <img src="/img/productq.png" alt="Lambda ProductQ project" />
                   <a
-                    href=""
-                    class="halfway-fab btn-floating gradient-pink pulse"
+                    href="#productq-modal"
+                    class="halfway-fab btn-floating gradient-pink pulse modal-trigger"
                   >
-                    <i class="far fa-hand-pointer"></i>
+                    <i class="fab fa-youtube"></i>
                   </a>
                 </div>
+                <!-- MODAL FOR LAMBDA PRODUCTQ - START -->
+                <div id="productq-modal" class="modal">
+                  <div class="modal-content">
+                    <div class="row">
+                      <div class="col s12 l12">
+                        <a
+                          href="#projects"
+                          class="btn-floating modal-action modal-close right pink darken-3"
+                          onclick="$('#productq-modal').closeModal();"
+                          ><i class="fas fa-times"></i
+                        ></a>
+                      </div>
+                    </div>
+                    <div class="video-container">
+                      <iframe
+                        width="853"
+                        height="480"
+                        src="//www.youtube.com/embed/CbBdcQ_vmm8?rel=0"
+                        frameborder="0"
+                        allowfullscreen
+                      ></iframe>
+                    </div>
+                  </div>
+                </div>
+                <!-- MODAL FOR LAMBDA PRODUCTQ - END -->
                 <div class="card-content">
                   <span class="card-title pink-text text-darken-3"
                     >Project 2</span
@@ -190,14 +240,42 @@
             <div class="col s12 m6 l5">
               <div class="card hoverable">
                 <div class="card-image">
-                  <img src="/img/sleeptracker.png" alt="just help project" />
+                  <img
+                    src="/img/sleeptracker.png"
+                    alt="sleep tracker project"
+                  />
                   <a
-                    href=""
-                    class="halfway-fab btn-floating gradient-pink pulse"
+                    href="#sleeptracker-modal"
+                    class="halfway-fab btn-floating gradient-pink pulse modal-trigger"
                   >
-                    <i class="far fa-hand-pointer"></i>
+                    <i class="fab fa-youtube"></i>
                   </a>
                 </div>
+                <!-- MODAL FOR SLEEP TRACKER - START -->
+                <div id="sleeptracker-modal" class="modal">
+                  <div class="modal-content">
+                    <div class="row">
+                      <div class="col s12 l12">
+                        <a
+                          href="#projects"
+                          class="btn-floating modal-action modal-close right pink darken-3"
+                          onclick="$('#sleeptracker-modal').closeModal();"
+                          ><i class="fas fa-times"></i
+                        ></a>
+                      </div>
+                    </div>
+                    <div class="video-container">
+                      <iframe
+                        width="853"
+                        height="480"
+                        src="//www.youtube.com/embed/Uhhuaz4VWRM?rel=0"
+                        frameborder="0"
+                        allowfullscreen
+                      ></iframe>
+                    </div>
+                  </div>
+                </div>
+                <!-- MODAL FOR SLEEP TRACKER - END -->
                 <div class="card-content">
                   <span class="card-title pink-text text-darken-3"
                     >Project 1</span
@@ -231,7 +309,7 @@
                     <div class="row">
                       <div class="col s12 l12">
                         <a
-                          href=""
+                          href="#projects"
                           class="btn-floating modal-action modal-close right pink darken-3"
                           onclick="$('#htw-modal').closeModal();"
                           ><i class="fas fa-times"></i
@@ -242,7 +320,7 @@
                       <iframe
                         width="853"
                         height="480"
-                        src="//www.youtube.com/embed/pvXFtddySoE?rel=0"
+                        src="//www.youtube.com/embed/vg3uEaHwduc?rel=0"
                         frameborder="0"
                         allowfullscreen
                       ></iframe>
