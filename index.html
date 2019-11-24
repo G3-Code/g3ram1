@@ -63,7 +63,11 @@
               </a>
               <ul class="right hide-on-med-and-down">
                 <li><a href="#" class="black-text normal-text">Stories</a></li>
-                <li><a href="#projects" class="black-text normal-text">Projects</a></li>
+                <li>
+                  <a href="#projects" class="black-text normal-text"
+                    >Projects</a
+                  >
+                </li>
                 <li>
                   <a href="about.html" class="black-text normal-text">About</a>
                 </li>
@@ -72,7 +76,9 @@
               <ul class="sidenav black" id="mobile-links">
                 <li><a href="#" class="white-text normal-text">Stories</a></li>
                 <li>
-                  <a href="#projects" class="white-text normal-text ">Projects</a>
+                  <a href="#projects" class="white-text normal-text "
+                    >Projects</a
+                  >
                 </li>
                 <li>
                   <a href="about.html" class="white-text normal-text">About</a>
@@ -389,27 +395,28 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <!-- Compiled and minified JavaScript -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <script type="text/JavaScript" src="/js/utility.js"></script>
     <script>
-      $(document).ready(function() {
-        $(".sidenav").sidenav({ edge: "right" });
-        $(".tooltipped").tooltip();
-        $(".modal").modal();
-        $(window).scroll(function() {
-          // alert("scrolling window");
-          var cont_height = $(".content-wrapper").outerHeight();
-          var scroll_top = $(window).scrollTop();
-          var doc_height = $(window).outerHeight();
-          var progress = (scroll_top / (cont_height - doc_height)) * 100;
+      // $(document).ready(function() {
+      //   $(".sidenav").sidenav({ edge: "right" });
+      //   $(".tooltipped").tooltip();
+      //   $(".modal").modal();
+      //   $(window).scroll(function() {
+      //     // alert("scrolling window");
+      //     var cont_height = $(".content-wrapper").outerHeight();
+      //     var scroll_top = $(window).scrollTop();
+      //     var doc_height = $(window).outerHeight();
+      //     var progress = (scroll_top / (cont_height - doc_height)) * 100;
 
-          // range of progress
-          function round(val, min, max) {
-            return val > max ? max : val < min ? min : val;
-          }
+      //     // range of progress
+      //     function round(val, min, max) {
+      //       return val > max ? max : val < min ? min : val;
+      //     }
 
-          var final_val = round(progress, 0, 100);
-          $(".progress-bar").attr("value", final_val);
-        });
-      });
+      //     var final_val = round(progress, 0, 100);
+      //     $(".progress-bar").attr("value", final_val);
+      //   });
+      // });
     </script>
   </body>
 </html>
