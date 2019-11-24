@@ -1,8 +1,17 @@
 html {
   font-size: 62.5%;
   font-family: "Open Sans", sans-serif;
+  min-height: 100vh;
+}
+body {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
 }
 
+main {
+  flex: 1 0 auto;
+}
 .brand-logo {
   margin-top: 12px;
 }
@@ -79,10 +88,6 @@ section {
   min-height: 100vh;
 }
 
-.resume-section {
-  min-height: 20vh;
-}
-
 progress {
   -webkit-appearance: progress-bar;
   box-sizing: border-box;
@@ -125,6 +130,7 @@ progress::-moz-progress-value {
 
 .footer-content {
   height: 200px;
+  width: 100%;
 }
 
 .footer-links {
@@ -139,6 +145,14 @@ progress::-moz-progress-value {
   display: flex;
   justify-content: space-between;
   align-items: center;
+}
+
+.page-footer {
+  padding: 0px;
+}
+.footer-copyright {
+  width: 100%;
+  margin: 0px;
 }
 
 @media screen and (max-width: 670px) {
