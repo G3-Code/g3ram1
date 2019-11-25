@@ -24,12 +24,14 @@
   /* font-family: "Open Sans", sans-serif; */
   letter-spacing: 2px;
   font-size: 1.6rem;
+  text-align: justify;
 }
 
 .normal-extra-large-text {
   /* font-family: "Open Sans", sans-serif; */
   letter-spacing: 2px;
   font-size: 2rem;
+  text-align: justify;
 }
 
 .card-normal-text {
