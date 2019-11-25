@@ -63,7 +63,11 @@
               </a>
               <ul class="right hide-on-med-and-down">
                 <li><a href="#" class="black-text normal-text">Stories</a></li>
-                <li><a href="#projects" class="black-text normal-text">Projects</a></li>
+                <li>
+                  <a href="#projects" class="black-text normal-text"
+                    >Projects</a
+                  >
+                </li>
                 <li>
                   <a href="about.html" class="black-text normal-text">About</a>
                 </li>
@@ -72,7 +76,9 @@
               <ul class="sidenav black" id="mobile-links">
                 <li><a href="#" class="white-text normal-text">Stories</a></li>
                 <li>
-                  <a href="#projects" class="white-text normal-text ">Projects</a>
+                  <a href="#projects" class="white-text normal-text "
+                    >Projects</a
+                  >
                 </li>
                 <li>
                   <a href="about.html" class="white-text normal-text">About</a>
@@ -86,7 +92,7 @@
           <div class="container valign-wrapper">
             <div class="row">
               <!-- BANNER TITLE AND SUB-TITLE -->
-              <div class="name-title col s12 m10 l12">
+              <div class="name-title col s10 m10 l12">
                 Gayathri Ramakrishnan
               </div>
               <div class="sub-title col s12 m10 l12">
@@ -113,7 +119,10 @@
               </div>
               <div class="row"></div>
               <div class="col s1 m1 l1">
-                <a href="" class="btn-floating pulse gradient-pink ">
+                <a
+                  href="mailto:gayathri.t.ramakrishnan@gmail.com"
+                  class="btn-floating pulse gradient-pink "
+                >
                   <i class="far fa-envelope"></i>
                 </a>
               </div>
@@ -124,10 +133,10 @@
       </header>
 
       <!-- PROJECTS -->
-      <div class="project-section" id="projects">
+      <main class="project-section">
         <section class="container">
           <div class="gutter"></div>
-          <h1 class="center-align highlights">
+          <h1 class="center-align highlights scrollspy" id="projects">
             Selected Projects
           </h1>
           <div class="gutter"></div>
@@ -170,16 +179,24 @@
                 <!-- MODAL FOR JUST HELP - END -->
                 <div class="card-content">
                   <span class="card-title pink-text text-darken-3"
-                    >Project 1</span
+                    >Just Help</span
                   >
-                  <p class="flow-text">
-                    Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-                    Voluptatem iusto sapiente fugit at. Tempora repellat, ipsam
+                  <span class="card-sub-title-text"
+                    >Front-end Architect & Developer</span
+                  >
+                  <br /><br />
+                  <span class="card-sub-title-text pink-text text-darken-3">
+                    Tech Stack:
+                  </span>
+                  <p class="card-normal-text">
+                    &bull;&nbsp;HTML5/CSS3, JS, React, Redux<br />
+                    &bull;&nbsp;Axios, REST APIs <br />
+                    &bull;&nbsp;Figma(UX design), Netlify, Git/GitHub
                   </p>
                 </div>
                 <div class="card-action">
                   <a href="#" class="pink-text text-darken-3"
-                    >View Case Study &rarr;</a
+                    >View full case study &rarr;</a
                   >
                 </div>
               </div>
@@ -187,23 +204,24 @@
             <div class="col s12 m6 l5 offset-l2">
               <div class="card hoverable">
                 <div class="card-image">
-                  <img src="/img/productq.png" alt="Lambda ProductQ project" />
+                  <img src="/img/howsthewater.png" alt="just help project" />
                   <a
-                    href="#productq-modal"
+                    href="#htw-modal"
                     class="halfway-fab btn-floating gradient-pink pulse modal-trigger"
                   >
                     <i class="fab fa-youtube"></i>
                   </a>
                 </div>
-                <!-- MODAL FOR LAMBDA PRODUCTQ - START -->
-                <div id="productq-modal" class="modal">
+
+                <!-- MODAL FOR HOW'S THE WATER - START -->
+                <div id="htw-modal" class="modal">
                   <div class="modal-content">
                     <div class="row">
                       <div class="col s12 l12">
                         <a
                           href="#projects"
                           class="btn-floating modal-action modal-close right pink darken-3"
-                          onclick="$('#productq-modal').closeModal();"
+                          onclick="$('#htw-modal').closeModal();"
                           ><i class="fas fa-times"></i
                         ></a>
                       </div>
@@ -212,26 +230,37 @@
                       <iframe
                         width="853"
                         height="480"
-                        src="//www.youtube.com/embed/CbBdcQ_vmm8?rel=0"
+                        src="//www.youtube.com/embed/vg3uEaHwduc?rel=0"
                         frameborder="0"
                         allowfullscreen
                       ></iframe>
                     </div>
                   </div>
                 </div>
-                <!-- MODAL FOR LAMBDA PRODUCTQ - END -->
+                <!-- MODAL FOR HOW'S THE WATER - END -->
+
                 <div class="card-content">
                   <span class="card-title pink-text text-darken-3"
-                    >Project 2</span
+                    >How's the water</span
                   >
-                  <p class="flow-text">
-                    Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-                    Voluptatem iusto sapiente fugit at. Tempora repellat, ipsam
+                  <span class="card-sub-title-text"
+                    >Front-end Architect & Developer</span
+                  >
+                  <br /><br />
+                  <span class="card-sub-title-text pink-text text-darken-3">
+                    Tech Stack:
+                  </span>
+                  <p class="card-normal-text">
+                    &bull;&nbsp;HTML5/CSS3, JS, React, Redux, Figma (UX design)
+                    <br />
+                    &bull;&nbsp;Apollo (GraphQL), Chartjs (Data
+                    Visualization)<br />
+                    &bull;&nbsp;AWS-Amplify, AWS-Cognito, Git/Github
                   </p>
                 </div>
                 <div class="card-action">
                   <a href="#" class="pink-text text-darken-3"
-                    >View Case Study &rarr;</a
+                    >View full case study &rarr;</a
                   >
                 </div>
               </div>
@@ -282,16 +311,24 @@
                 <!-- MODAL FOR SLEEP TRACKER - END -->
                 <div class="card-content">
                   <span class="card-title pink-text text-darken-3"
-                    >Project 1</span
+                    >Sleep Tracker</span
                   >
-                  <p class="flow-text">
-                    Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-                    Voluptatem iusto sapiente fugit at. Tempora repellat, ipsam
+                  <span class="card-sub-title-text"
+                    >Back-end Architect & Developer</span
+                  >
+                  <br /><br />
+                  <span class="card-sub-title-text pink-text text-darken-3">
+                    Tech Stack:
+                  </span>
+                  <p class="card-normal-text">
+                    &bull;&nbsp;Nodejs, Express, Postman<br />
+                    &bull;&nbsp;Knex, SQLite, Postgres <br />
+                    &bull;&nbsp;Heroku (hosting), Git/Github
                   </p>
                 </div>
                 <div class="card-action">
                   <a href="#" class="pink-text text-darken-3"
-                    >View Case Study &rarr;</a
+                    >View full case study &rarr;</a
                   >
                 </div>
               </div>
@@ -299,23 +336,23 @@
             <div class="col s12 m6 l5 offset-l2">
               <div class="card hoverable">
                 <div class="card-image">
-                  <img src="/img/howsthewater.png" alt="just help project" />
+                  <img src="/img/productq.png" alt="Lambda ProductQ project" />
                   <a
-                    href="#htw-modal"
+                    href="#productq-modal"
                     class="halfway-fab btn-floating gradient-pink pulse modal-trigger"
                   >
                     <i class="fab fa-youtube"></i>
                   </a>
                 </div>
-                <!-- MODAL FOR HOW'S THE WATER - START -->
-                <div id="htw-modal" class="modal">
+                <!-- MODAL FOR LAMBDA PRODUCTQ - START -->
+                <div id="productq-modal" class="modal">
                   <div class="modal-content">
                     <div class="row">
                       <div class="col s12 l12">
                         <a
                           href="#projects"
                           class="btn-floating modal-action modal-close right pink darken-3"
-                          onclick="$('#htw-modal').closeModal();"
+                          onclick="$('#productq-modal').closeModal();"
                           ><i class="fas fa-times"></i
                         ></a>
                       </div>
@@ -324,26 +361,32 @@
                       <iframe
                         width="853"
                         height="480"
-                        src="//www.youtube.com/embed/vg3uEaHwduc?rel=0"
+                        src="//www.youtube.com/embed/CbBdcQ_vmm8?rel=0"
                         frameborder="0"
                         allowfullscreen
                       ></iframe>
                     </div>
                   </div>
                 </div>
-                <!-- MODAL FOR HOW'S THE WATER - END -->
+                <!-- MODAL FOR LAMBDA PRODUCTQ - END -->
                 <div class="card-content">
                   <span class="card-title pink-text text-darken-3"
                     >How's the water!</span
                   >
-                  <p class="flow-text">
-                    Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-                    Voluptatem iusto sapiente fugit at. Tempora repellat, ipsam
+                  <span class="card-sub-title-text">Front-end Developer</span>
+                  <br /><br />
+                  <span class="card-sub-title-text pink-text text-darken-3">
+                    Tech Stack:
+                  </span>
+                  <p class="card-normal-text">
+                    &bull;&nbsp;HTML5/CSS3, JS<br />
+                    &bull;&nbsp;Netlify <br />
+                    &bull;&nbsp;Git/GitHub
                   </p>
                 </div>
                 <div class="card-action">
                   <a href="#" class="pink-text text-darken-3"
-                    >View Case Study &rarr;</a
+                    >View full case study &rarr;</a
                   >
                 </div>
               </div>
@@ -351,7 +394,7 @@
           </div>
           <div class="gutter"></div>
         </section>
-      </div>
+      </main>
       <!-- DOWNLOAD RESUME SECTION -->
 
       <!-- FOOTER -->
@@ -363,7 +406,7 @@
           </div>
         </div>
         <div class="footer-copyright row black darken-4 normal-text">
-          <div class="container valign-wrapper footer-section">
+          <div class="container footer-section">
             <div class="footer-left">&copy; 2019 Gayathri Ramakrishnan</div>
             <div>
               <a href="" class="btn-floating gradient-pink right footer-links">
@@ -389,27 +432,28 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <!-- Compiled and minified JavaScript -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <script type="text/JavaScript" src="/js/utility.js"></script>
     <script>
-      $(document).ready(function() {
-        $(".sidenav").sidenav({ edge: "right" });
-        $(".tooltipped").tooltip();
-        $(".modal").modal();
-        $(window).scroll(function() {
-          // alert("scrolling window");
-          var cont_height = $(".content-wrapper").outerHeight();
-          var scroll_top = $(window).scrollTop();
-          var doc_height = $(window).outerHeight();
-          var progress = (scroll_top / (cont_height - doc_height)) * 100;
+      // $(document).ready(function() {
+      //   $(".sidenav").sidenav({ edge: "right" });
+      //   $(".tooltipped").tooltip();
+      //   $(".modal").modal();
+      //   $(window).scroll(function() {
+      //     // alert("scrolling window");
+      //     var cont_height = $(".content-wrapper").outerHeight();
+      //     var scroll_top = $(window).scrollTop();
+      //     var doc_height = $(window).outerHeight();
+      //     var progress = (scroll_top / (cont_height - doc_height)) * 100;
 
-          // range of progress
-          function round(val, min, max) {
-            return val > max ? max : val < min ? min : val;
-          }
+      //     // range of progress
+      //     function round(val, min, max) {
+      //       return val > max ? max : val < min ? min : val;
+      //     }
 
-          var final_val = round(progress, 0, 100);
-          $(".progress-bar").attr("value", final_val);
-        });
-      });
+      //     var final_val = round(progress, 0, 100);
+      //     $(".progress-bar").attr("value", final_val);
+      //   });
+      // });
     </script>
   </body>
 </html>
