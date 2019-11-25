@@ -155,6 +155,10 @@ progress::-moz-progress-value {
   margin: 0px;
 }
 
+.valign-wrapper {
+  justify-content: center;
+}
+
 @media screen and (max-width: 670px) {
   .name-title {
     letter-spacing: 2px;
