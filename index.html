@@ -20,9 +20,15 @@
       rel="stylesheet"
     />
     <!--Import materialize.css-->
-    <link
+    <!-- <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css"
+    /> -->
+    <link
+      type="text/css"
+      rel="stylesheet"
+      href="css/materialize.css"
+      media="screen,projection"
     />
 
     <!-- Link to local CSS -->
@@ -125,7 +131,8 @@
               <div class="col s1 m1 l1">
                 <a
                   href="mailto:gayathri.t.ramakrishnan@gmail.com"
-                  class="btn-floating pulse gradient-pink "
+                  class="tooltipped btn-floating pulse gradient-pink "
+                  data-tooltip="Send Email to Gayathri"
                 >
                   <i class="far fa-envelope"></i>
                 </a>
@@ -140,11 +147,11 @@
       <main class="project-section">
         <section class="container">
           <div class="gutter"></div>
-          <h1 class="center-align highlights scrollspy" id="projects">
+          <h1 class="center-align highlights">
             Selected Projects
           </h1>
           <div class="gutter"></div>
-          <div class="row">
+          <div class="row scrollspy" id="projects">
             <div class="col s12 m6 l5">
               <div class="card hoverable">
                 <div class="card-image">
@@ -423,34 +430,44 @@
               <a
                 href="https://twitter.com/G3RamTweets"
                 target="_blank"
-                class="btn-floating gradient-pink right footer-links"
+                class="tooltipped btn-floating gradient-pink right footer-links"
+                data-tooltip="Twitter Profile"
+                data-position="top"
               >
                 <i class="fab fa-twitter"></i>
               </a>
               <a
                 href="https://github.com/G3Ram"
                 target="_blank"
-                class="btn-floating gradient-pink right footer-links"
+                class="tooltipped btn-floating gradient-pink right footer-links"
+                data-tooltip="Github profile"
+                data-position="top"
               >
                 <i class="fab fa-github"></i>
               </a>
               <a
                 href="https://www.linkedin.com/in/gayathri-ram/"
                 target="_blank"
-                class="btn-floating gradient-pink right footer-links"
+                class="tooltipped btn-floating gradient-pink right footer-links"
+                data-tooltip="LinkedIn Profile"
+                data-position="top"
               >
                 <i class="fab fa-linkedin"></i>
               </a>
               <a
                 href="https://www.hackerrank.com/g3ram"
                 target="_blank"
-                class="btn-floating gradient-pink right footer-links"
+                class="tooltipped btn-floating gradient-pink right footer-links"
+                data-tooltip="Hackerrank profile"
+                data-position="top"
               >
                 <i class="fab fa-hackerrank"></i>
               </a>
               <a
                 href="mailto:gayathri.t.ramakrishnan@gmail.com"
-                class="btn-floating gradient-pink right footer-links"
+                class="tooltipped btn-floating gradient-pink right footer-links"
+                data-tooltip="Send email to Gayathri"
+                data-position="top"
               >
                 <i class="far fa-envelope"></i>
               </a>
@@ -461,7 +478,8 @@
     </div>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <!-- Compiled and minified JavaScript -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script> -->
+    <script type="text/JavaScript" src="/js/materialize.js"></script>
     <script type="text/JavaScript" src="/js/utility.js"></script>
   </body>
 </html>

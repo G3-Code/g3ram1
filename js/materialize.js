@@ -4650,17 +4650,17 @@ $jscomp.polyfill = function (e, r, p, m) {
         var offset = this.options.margin + this.options.transitionMovement;
         var edges = M.checkWithinContainer(document.body, bounding, offset);
 
-        if (edges.left) {
-          newX = offset;
-        } else if (edges.right) {
-          newX -= newX + width - window.innerWidth;
-        }
+        // if (edges.left) {
+        //   newX = offset;
+        // } else if (edges.right) {
+        //   newX -= newX + width - window.innerWidth;
+        // }
 
-        if (edges.top) {
-          newY = offset;
-        } else if (edges.bottom) {
-          newY -= newY + height - window.innerHeight;
-        }
+        // if (edges.top) {
+        //   newY = offset;
+        // } else if (edges.bottom) {
+        //   newY -= newY + height - window.innerHeight;
+        // }
 
         return {
           x: newX + scrollLeft,
