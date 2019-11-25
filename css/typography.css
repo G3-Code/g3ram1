@@ -6,9 +6,9 @@
 
 .normal-link-text {
   /* font-family: "Open Sans", sans-serif; */
-  letter-spacing: 2px;
+  letter-spacing: 0px;
   font-size: 1.2rem;
-  border-bottom: 1px solid darkmagenta;
+  border-bottom: 1px solid gray;
 }
 
 .normal-flow-text {
