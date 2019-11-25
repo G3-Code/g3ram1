@@ -1,0 +1,35 @@
+.aboutme-section {
+  background: linear-gradient(
+      90.16deg,
+      #ffffff 0.08%,
+      rgba(255, 255, 255, 0.75) 54.91%,
+      rgba(255, 255, 255, 0.7) 98.48%
+    ),
+    url(/img/project-background.jpg) repeat fixed 100%;
+  background-size: contain;
+  background-position: center;
+}
+.profile-img {
+  border: 1px dotted lightgray;
+  width: 75%;
+  height: auto;
+  margin-top: 30px;
+}
+
+.award-img {
+  border: 1px dotted lightgray;
+  margin-top: 70px;
+}
+
+.speciality-section {
+  min-height: 60vh;
+  background-color: #e7e7e7;
+}
+
+.text-underline {
+  border-bottom: 1px solid #f30885;
+}
+
+.ast-highlight {
+  color: #f30885;
+}
