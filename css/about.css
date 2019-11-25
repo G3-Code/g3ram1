@@ -4,3 +4,8 @@
   height: auto;
   margin-top: 30px;
 }
+
+.award-img {
+  border: 1px dotted lightgray;
+  margin-top: 30px;
+}
