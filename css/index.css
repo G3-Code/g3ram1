@@ -156,6 +156,12 @@ progress::-moz-progress-value {
 }
 
 @media screen and (max-width: 670px) {
+  .name-title {
+    letter-spacing: 2px;
+    font-size: 3rem;
+    font-weight: 700;
+  }
+
   progress.progress-bar {
     top: 55px;
   }
