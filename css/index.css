@@ -173,8 +173,4 @@ progress::-moz-progress-value {
   .footer-left {
     margin-bottom: 20px;
   }
-
-  .banner {
-    height: 95vh;
-  }
 }
