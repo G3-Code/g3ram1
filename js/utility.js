@@ -20,3 +20,13 @@ $(document).ready(function() {
     $(".progress-bar").attr("value", final_val);
   });
 });
+
+function changeProfileImageToColor() {
+  var profileImage = document.getElementById("profile-picture");
+  profileImage.src = "../img/g3ram_profile_color.png";
+}
+
+function changeProfileImageToPencil() {
+  var profileImage = document.getElementById("profile-picture");
+  profileImage.src = "../img/g3ram_profile_color.jpg";
+}
