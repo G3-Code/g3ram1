@@ -3,6 +3,7 @@ $(document).ready(function() {
   $(".tooltipped").tooltip();
   $(".scrollspy").scrollSpy();
   $(".modal").modal();
+
   $(window).scroll(function() {
     // alert("scrolling window");
     var cont_height = $(".content-wrapper").outerHeight();

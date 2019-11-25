@@ -68,11 +68,3 @@ h1 {
   font-weight: 900;
   font-size: 1.6rem;
 }
-
-@media screen and (max-width: 670) {
-  .name-title {
-    letter-spacing: 2px;
-    font-size: 2rem;
-    font-weight: 700;
-  }
-}
