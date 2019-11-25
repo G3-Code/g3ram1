@@ -9,3 +9,8 @@
   border: 1px dotted lightgray;
   margin-top: 70px;
 }
+
+.speciality-section {
+  background-color: lightgray;
+  min-height: 50vh;
+}
