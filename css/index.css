@@ -12,6 +12,10 @@ body {
 main {
   flex: 1 0 auto;
 }
+
+.nav-link-selected {
+  border-bottom: 1px solid #f30885;
+}
 .brand-logo {
   margin-top: 12px;
 }
