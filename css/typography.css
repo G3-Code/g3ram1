@@ -4,6 +4,13 @@
   font-size: 1.2rem;
 }
 
+.normal-link-text {
+  /* font-family: "Open Sans", sans-serif; */
+  letter-spacing: 2px;
+  font-size: 1.2rem;
+  border-bottom: 1px solid darkmagenta;
+}
+
 .normal-flow-text {
   /* font-family: "Open Sans", sans-serif; */
   letter-spacing: 1px;
@@ -33,6 +40,7 @@
 .card-sub-title-text {
   font-size: 1.2rem;
   text-transform: uppercase;
+  font-weight: 700;
 }
 
 p {
