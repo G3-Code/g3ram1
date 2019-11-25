@@ -12,6 +12,10 @@ body {
 main {
   flex: 1 0 auto;
 }
+
+.nav-link-selected {
+  border-bottom: 1px solid #f30885;
+}
 .brand-logo {
   margin-top: 12px;
 }
@@ -88,6 +92,15 @@ section {
   min-height: 100vh;
 }
 
+.resume {
+  border-bottom: 1px solid white;
+  color: #f30885;
+}
+
+.resume:hover {
+  color: #0dc8c0;
+}
+
 progress {
   -webkit-appearance: progress-bar;
   box-sizing: border-box;
@@ -107,10 +120,12 @@ progress.progress-bar {
   -webkit-appearance: none;
 }
 progress::-webkit-progress-value {
-  background-color: #d32f2f;
+  /* background-color: #d32f2f; */
+  background-color: #0dc8c0;
 }
 progress::-moz-progress-value {
-  background-color: #d32f2f;
+  /* background-color: #d32f2f; */
+  background-color: #0dc8c0;
 }
 
 .project-section {
@@ -153,6 +168,10 @@ progress::-moz-progress-value {
 .footer-copyright {
   width: 100%;
   margin: 0px;
+}
+
+.valign-wrapper {
+  justify-content: center;
 }
 
 @media screen and (max-width: 670px) {
