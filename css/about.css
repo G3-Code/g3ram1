@@ -11,6 +11,13 @@
 }
 
 .speciality-section {
-  background-color: lightgray;
   min-height: 50vh;
+}
+
+.text-underline {
+  border-bottom: 1px solid #f30885;
+}
+
+.ast-highlight {
+  color: #f30885;
 }
