@@ -149,13 +149,16 @@
 
       <!-- PROJECTS -->
       <main class="project-section">
+        <!-- START OF PROJECTS CONTAINER -->
         <section class="container">
           <div class="gutter"></div>
+          <!-- SELECTED PROJECTS HEADER -->
           <h1 class="center-align highlights">
             Selected Projects
           </h1>
           <div class="gutter"></div>
           <div class="row scrollspy" id="projects">
+            <!-- JUST HELP CARD - START -->
             <div class="col s12 m6 l5">
               <div class="card hoverable">
                 <div class="card-image">
@@ -220,65 +223,95 @@
                   <!-- MODAL VIEW FULL CASE STUDY - JUST HELP - START -->
                   <div class="modal" id="casestudy-justhelp">
                     <div class="modal-content">
+                      <div class="row"></div>
                       <div class="row">
-                        <div class="col s12 l12">
+                        
+                        <div class="col s10 l10">
+                          <h3 class="pink-text text-darken-3">Case study - Sleep Tracker</h3>
+                        </div>
+                        <div class="col s2 l2">
                           <a
                             href="#projects"
-                            class="btn-floating modal-action modal-close right pink darken-3"
-                            onclick="$('#justhelp_modal').closeModal();"
+                            class="tooltipped btn-floating modal-action modal-close right pink darken-3"
+                            data-tooltip="Close"
+                            onclick="$('#casestudy-sleeptracker').closeModal();"
                             ><i class="fas fa-times"></i
                           ></a>
                         </div>
                       </div>
                       <!-- Responsibilities, challenges, learnings, contributions -->
                       <div class="row">
-                        <div class="col s12 l5 casestudy-cards">
-                          <h4 class="pink-text text-darken-3">
+                        <div class="col s12 l10 offset-l1 casestudy-cards">
+                          <h4 class="left-align pink-text text-darken-3">About</h4>
+                          <p class="normal-large-p-text">
+                              This app could be used by anyone to track their sleep routine. The app generates a visual analysis of the sleep pattern. There is a high level recommendation provided based on the sleep pattern recorded. This was a three member team with 3 days to turn around the application. 
+                          </p> 
+                        </div>
+                      </div>
+                      <div class="row">
+                        <div
+                          class="col s12 l10 offset-l1 center-align casestudy-cards"
+                        >
+                          <h4 class="left-align pink-text text-darken-3">
                             Responsibilities
                           </h4>
-                          <p>
-                            Lorem ipsum dolor sit amet consectetur adipisicing
-                            elit. Velit pariatur eligendi mollitia maiores
-                            accusantium impedit minima quam cum ea quae.
-                            Molestiae facere veritatis mollitia perferendis est
-                            minima nobis nam deleniti?
+                          <p class="normal-large-p-text">
+                            <span
+                              class="normal-large-p-title-text pink-text text-darken-3"
+                              >Designed and developed: </span
+                            ><br />
+                            &bull;&nbsp;&nbsp;the backend for the in Nodejs/Express <br />
+                            &bull;&nbsp;&nbsp;the database design to be deployed in SQLite3 for development and Postgres for production <br />
+                            &bull;&nbsp;&nbsp;all the end points that would be required by the FE and returning ample data to avoid mulitiple API calls.
                           </p>
-                        </div>
-                        <div class="col s12 l6 offset-l1 casestudy-cards">
-                          <h4 class="pink-text text-darken-3">
-                            Challenges
-                          </h4>
-                          <p>
-                            Lorem ipsum dolor, sit amet consectetur adipisicing
-                            elit. Aliquam, est corporis. Soluta perferendis
-                            libero maxime quod voluptas aperiam ad alias fuga!
-                            Autem sed hic, tenetur iure veniam expedita soluta
-                            incidunt?
+                          <p class="normal-large-p-text">
+                            <span
+                              class="normal-large-p-title-text pink-text text-darken-3"
+                            >
+                              Worked with the Front End architect </span
+                            ><br />
+                            &bull;&nbsp;&nbsp;on integration points between FE REST API calls <br />
+          
                           </p>
                         </div>
                       </div>
                       <div class="row">
-                        <div class="col s12 l6 casestudy-cards">
-                          <h4 class="pink-text text-darken-3">
-                            Learnings
+                        <div class="col s12 l10 offset-l1 casestudy-cards">
+                          <h4
+                            class="normal-extra-large-text pink-text text-darken-3"
+                          >
+                            Challenges
                           </h4>
-                          <p>
-                            Lorem ipsum dolor sit amet consectetur adipisicing
-                            elit. Atque quia totam ullam praesentium voluptas
-                            velit molestias provident, odio sequi eligendi eos
-                            illo reprehenderit! Beatae, qui. Dignissimos officia
-                            blanditiis corporis quia?
+                          <p class="normal-large-p-text">
+                            Following were some of the key challenges
+                            encountered:<br />
+                            &bull;&nbsp;&nbsp; This was a three day project. The FE were dependent on BE for all the end points. BE had to developed from scratch<br />
+                            &bull;&nbsp;&nbsp; The type of data avaialble to the FE for further manipulation had to be designed and agreed upfront.
+                            &bull;&nbsp;&nbsp; The BE had to be flexible to accomodate any of the design changes from the FE. Especially, for Data visualization component.
                           </p>
                         </div>
-                        <div class="col s12 l5 offset-l1 casestudy-cards">
-                          <h4 class="pink-text text-darken-3">
+                      </div>
+                      <div class="row">
+                        <div class="col s12 l10 offset-l1  casestudy-cards">
+                          <h4 class="left-align pink-text text-darken-3">
                             Contributions Chart from Github
                           </h4>
                           <img
-                            src="/img/contributions/contr-justhelp.png"
+                            src="/img/contributions/contr-sleeptracker.png"
                             alt="Github contributions for JustHelp Project"
                             class="responsive-img"
                           />
+                        </div>
+                        <div class="col s12 l10 offset-l1 casestudy-cards">
+                          <br />
+                          <h4 class="left-align pink-text text-darken-3">
+                            Learnings
+                          </h4>
+                          <p class="normal-large-p-text">
+                            &bull;&nbsp;&nbsp; This was a three day project. For the smooth functioning of the project prioritized the tasks so that FE's work was not stagnant because of BE unavailability<br />
+                            &bull;&nbsp;&nbsp; Provided a fool proof design to FE to work with and developed the BE as per design so as to avoid any integration issues.
+                            &bull;&nbsp;&nbsp; <a href="https://github.com/bw-sleep-tracker/ST-Back-End" target="blank">Documentation for Sleep Tracker BE</a> Provided a complete documentation of all the end-points for the Backend developed.
+                          </p>
                         </div>
                       </div>
                     </div>
@@ -305,6 +338,8 @@
                 </div>
               </div>
             </div>
+            <!-- JUST HELP CARD - END -->
+            <!-- HOW'S THE WATER CARD - START -->
             <div class="col s12 m6 l5 offset-l2">
               <div class="card hoverable">
                 <div class="card-image">
@@ -373,65 +408,95 @@
                   <!-- MODAL VIEW FULL CASE STUDY - HOWS THE WATER - START -->
                   <div class="modal" id="casestudy-water">
                     <div class="modal-content">
+                      <div class="row"></div>
                       <div class="row">
-                        <div class="col s12 l12">
+                        
+                        <div class="col s10 l10">
+                          <h3 class="pink-text text-darken-3">Case study - Sleep Tracker</h3>
+                        </div>
+                        <div class="col s2 l2">
                           <a
                             href="#projects"
-                            class="btn-floating modal-action modal-close right pink darken-3"
-                            onclick="$('#justhelp_modal').closeModal();"
+                            class="tooltipped btn-floating modal-action modal-close right pink darken-3"
+                            data-tooltip="Close"
+                            onclick="$('#casestudy-sleeptracker').closeModal();"
                             ><i class="fas fa-times"></i
                           ></a>
                         </div>
                       </div>
                       <!-- Responsibilities, challenges, learnings, contributions -->
                       <div class="row">
-                        <div class="col s12 l5 casestudy-cards">
-                          <h4 class="pink-text text-darken-3">
+                        <div class="col s12 l10 offset-l1 casestudy-cards">
+                          <h4 class="left-align pink-text text-darken-3">About</h4>
+                          <p class="normal-large-p-text">
+                              This app could be used by anyone to track their sleep routine. The app generates a visual analysis of the sleep pattern. There is a high level recommendation provided based on the sleep pattern recorded. This was a three member team with 3 days to turn around the application. 
+                          </p> 
+                        </div>
+                      </div>
+                      <div class="row">
+                        <div
+                          class="col s12 l10 offset-l1 center-align casestudy-cards"
+                        >
+                          <h4 class="left-align pink-text text-darken-3">
                             Responsibilities
                           </h4>
-                          <p>
-                            Lorem ipsum dolor sit amet consectetur adipisicing
-                            elit. Velit pariatur eligendi mollitia maiores
-                            accusantium impedit minima quam cum ea quae.
-                            Molestiae facere veritatis mollitia perferendis est
-                            minima nobis nam deleniti?
+                          <p class="normal-large-p-text">
+                            <span
+                              class="normal-large-p-title-text pink-text text-darken-3"
+                              >Designed and developed: </span
+                            ><br />
+                            &bull;&nbsp;&nbsp;the backend for the in Nodejs/Express <br />
+                            &bull;&nbsp;&nbsp;the database design to be deployed in SQLite3 for development and Postgres for production <br />
+                            &bull;&nbsp;&nbsp;all the end points that would be required by the FE and returning ample data to avoid mulitiple API calls.
                           </p>
-                        </div>
-                        <div class="col s12 l6 offset-l1 casestudy-cards">
-                          <h4 class="pink-text text-darken-3">
-                            Challenges
-                          </h4>
-                          <p>
-                            Lorem ipsum dolor, sit amet consectetur adipisicing
-                            elit. Aliquam, est corporis. Soluta perferendis
-                            libero maxime quod voluptas aperiam ad alias fuga!
-                            Autem sed hic, tenetur iure veniam expedita soluta
-                            incidunt?
+                          <p class="normal-large-p-text">
+                            <span
+                              class="normal-large-p-title-text pink-text text-darken-3"
+                            >
+                              Worked with the Front End architect </span
+                            ><br />
+                            &bull;&nbsp;&nbsp;on integration points between FE REST API calls <br />
+          
                           </p>
                         </div>
                       </div>
                       <div class="row">
-                        <div class="col s12 l6 casestudy-cards">
-                          <h4 class="pink-text text-darken-3">
-                            Learnings
+                        <div class="col s12 l10 offset-l1 casestudy-cards">
+                          <h4
+                            class="normal-extra-large-text pink-text text-darken-3"
+                          >
+                            Challenges
                           </h4>
-                          <p>
-                            Lorem ipsum dolor sit amet consectetur adipisicing
-                            elit. Atque quia totam ullam praesentium voluptas
-                            velit molestias provident, odio sequi eligendi eos
-                            illo reprehenderit! Beatae, qui. Dignissimos officia
-                            blanditiis corporis quia?
+                          <p class="normal-large-p-text">
+                            Following were some of the key challenges
+                            encountered:<br />
+                            &bull;&nbsp;&nbsp; This was a three day project. The FE were dependent on BE for all the end points. BE had to developed from scratch<br />
+                            &bull;&nbsp;&nbsp; The type of data avaialble to the FE for further manipulation had to be designed and agreed upfront.
+                            &bull;&nbsp;&nbsp; The BE had to be flexible to accomodate any of the design changes from the FE. Especially, for Data visualization component.
                           </p>
                         </div>
-                        <div class="col s12 l5 offset-l1 casestudy-cards">
-                          <h4 class="pink-text text-darken-3">
+                      </div>
+                      <div class="row">
+                        <div class="col s12 l10 offset-l1  casestudy-cards">
+                          <h4 class="left-align pink-text text-darken-3">
                             Contributions Chart from Github
                           </h4>
                           <img
-                            src="/img/contributions/contr-justhelp.png"
+                            src="/img/contributions/contr-sleeptracker.png"
                             alt="Github contributions for JustHelp Project"
                             class="responsive-img"
                           />
+                        </div>
+                        <div class="col s12 l10 offset-l1 casestudy-cards">
+                          <br />
+                          <h4 class="left-align pink-text text-darken-3">
+                            Learnings
+                          </h4>
+                          <p class="normal-large-p-text">
+                            &bull;&nbsp;&nbsp; This was a three day project. For the smooth functioning of the project prioritized the tasks so that FE's work was not stagnant because of BE unavailability<br />
+                            &bull;&nbsp;&nbsp; Provided a fool proof design to FE to work with and developed the BE as per design so as to avoid any integration issues.
+                            &bull;&nbsp;&nbsp; <a href="https://github.com/bw-sleep-tracker/ST-Back-End" target="blank">Documentation for Sleep Tracker BE</a> Provided a complete documentation of all the end-points for the Backend developed.
+                          </p>
                         </div>
                       </div>
                     </div>
@@ -458,11 +523,13 @@
                 </div>
               </div>
             </div>
+            <!-- HOW'S THE WATER CARD -END -->
           </div>
           <div class="row"></div>
           <!-- SECOND ROW OF CARDS -->
 
           <div class="row">
+            <!-- SLEEP TRACKER CARD - START -->
             <div class="col s12 m6 l5">
               <div class="card hoverable">
                 <div class="card-image">
@@ -643,6 +710,8 @@
                 </div>
               </div>
             </div>
+            <!-- SLEEP TRACKER CARD -END -->
+            <!-- LAMBDA PRODUCT Q CARD -START -->
             <div class="col s12 m6 l5 offset-l2">
               <div class="card hoverable">
                 <div class="card-image">
@@ -825,6 +894,7 @@
                 </div>
               </div>
             </div>
+            <!-- LAMBDA PRODUCT Q CARD - END -->
           </div>
           <div class="gutter"></div>
         </section>
