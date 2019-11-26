@@ -27,6 +27,21 @@
   text-align: justify;
 }
 
+.normal-large-p-text {
+  /* font-family: "Open Sans", sans-serif; */
+  letter-spacing: 1px;
+  font-size: 1.6rem;
+  text-align: justify;
+}
+
+.normal-large-p-title-text {
+  /* font-family: "Open Sans", sans-serif; */
+  letter-spacing: 1px;
+  font-size: 1.6rem;
+  text-align: justify;
+  border-bottom: 1px solid #c2185b;
+}
+
 .normal-extra-large-text {
   /* font-family: "Open Sans", sans-serif; */
   letter-spacing: 2px;
