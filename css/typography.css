@@ -4,6 +4,11 @@
   font-size: 1.2rem;
 }
 
+.normal-medium-text {
+  letter-spacing: 1px;
+  font-size: 1.4rem;
+}
+
 .normal-link-text {
   /* font-family: "Open Sans", sans-serif; */
   letter-spacing: 0px;
